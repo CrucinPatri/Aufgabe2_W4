@@ -7,5 +7,11 @@ public class Main {
 
         FindMinimum find_minimum = new FindMinimum();
         System.out.println("Minimum: " + find_minimum.findMinimum(numbers));
+
+        TotalSum TotalSum = new TotalSum();
+        System.out.println("Total Sum:" + TotalSum.do_sum(numbers));
+
+        TotalMaxSum TotalMaxSum = new TotalMaxSum();
+        System.out.println("Total Maximum Sum:" + TotalMaxSum.do_maxsum(numbers));
     }
 }
