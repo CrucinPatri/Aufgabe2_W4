@@ -4,5 +4,8 @@ public class Main {
 
         FindMaximum find_maximum = new FindMaximum();
         System.out.println("Maximum: " + find_maximum.do_max(numbers));
+
+        FindMinimum find_minimum = new FindMinimum();
+        System.out.println("Minimum: " + find_minimum.findMinimum(numbers));
     }
 }
