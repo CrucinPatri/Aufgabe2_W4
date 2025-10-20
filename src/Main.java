@@ -13,5 +13,8 @@ public class Main {
 
         TotalMaxSum TotalMaxSum = new TotalMaxSum();
         System.out.println("Total Maximum Sum:" + TotalMaxSum.do_maxsum(numbers));
+
+        TotalMinSum TotalMinSum = new TotalMinSum();
+        System.out.println("Total Minimum Sum:" + TotalMinSum.do_minsum(numbers));
     }
 }
